@@ -1,3 +1,5 @@
+> This project has been **archived**. We will publish a monorepo version of this soon since this project is just a mess and everything hard-coded.
+
 # 🏰 Dungeon Blitz - Preservation Project
 
 ### Reviving the original Dungeon Blitz experience for archival and preservation purposes.
