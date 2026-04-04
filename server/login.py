@@ -1146,6 +1146,10 @@ def handle_gameserver_login(session, data):
         send_room_event_start(session, 1, True)
         print(f"[{session.addr}] Sent Room Event Start for TutorialDungeon")
 
+    if session.current_level == "TutorialBoat":
+        send_room_event_start(session, 0, True)
+        send_room_event_start(session, 1, True)
+
     # CraftTownTutorial (Keep clearing for "I Claim This Keep" / mission 5)
     if session.current_level == "CraftTownTutorial":
         from constants import Mission
